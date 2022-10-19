@@ -59,3 +59,23 @@ section {
 .it-takes-two .row img {
     width: 60%;
 }
+
+.new {
+    background-color: #1f1f1f;
+}
+
+.banner {
+    background-color: #bebcbb;
+}
+
+.ps-plus {
+    width: 60%;
+}
+
+.banner-blue {
+    background-color: #161c3b;
+}
+
+.d-none.col-md-6.d-md-block img {
+    height: 100%;
+}
