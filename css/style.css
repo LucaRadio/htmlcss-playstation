@@ -1,0 +1,61 @@
+.pre-nav {
+    height: 30px;
+}
+
+.pre-nav svg {
+    height: 50%;
+}
+
+nav {
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+nav .nav-container a {
+    color: black;
+}
+
+nav .nav-container a svg {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+section {
+    padding: 3rem 0rem;
+}
+
+.jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+}
+
+
+.jumbo .row {
+    padding-top: 200px;
+}
+
+.jumbo .row img {
+    width: 60%;
+}
+
+.btn.btn-warning.rounded-5.my-5 {
+    background-color: #cd3d0f;
+    border-color: #cd3d0f;
+    color: white;
+}
+
+.it-takes-two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-bottom: 0;
+    background-size: cover;
+}
+
+.it-takes-two .row img {
+    width: 60%;
+}
