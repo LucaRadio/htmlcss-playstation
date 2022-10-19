@@ -6,9 +6,9 @@
     height: 50%;
 }
 
-nav {
+header {
     position: sticky;
-    top: 0%;
+    top: -30px;
     z-index: 1;
 }
 
