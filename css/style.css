@@ -79,3 +79,33 @@ section {
 .d-none.col-md-6.d-md-block img {
     height: 100%;
 }
+
+footer {
+    background-color: #00439c;
+    padding: 2rem 0rem;
+}
+
+.country img {
+    width: 16px;
+    height: 16px;
+    margin: .5rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+    padding: .5rem 1rem;
+    display: inline-block;
+}
+
+footer ul a:hover {
+    text-decoration: underline;
+}
+
+.sie {
+    width: 200px;
+}
