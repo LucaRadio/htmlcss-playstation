@@ -12,6 +12,10 @@ header {
     z-index: 1;
 }
 
+nav {
+    background-color: white;
+}
+
 nav .nav-container a {
     color: black;
 }
