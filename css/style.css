@@ -14,6 +14,7 @@ header {
 
 nav {
     background-color: white;
+    position: relative;
 }
 
 nav .nav-container a {
@@ -25,17 +26,14 @@ nav .nav-container a svg {
     height: 0.5rem;
 }
 
-.hamburger {
-    position: relative;
-}
 
 .dropdown-hamburger {
     position: absolute;
     padding: 1rem;
-    left: calc(-100vw + 65px);
+    left: 0;
     top: 50px;
     background-color: white;
-    width: 100vw;
+    width: 100%;
     transition: all 0.5s;
     transform: translateY(-500px);
     z-index: 0;
@@ -45,6 +43,30 @@ nav .nav-container a svg {
 [class*=nav-compact]>* {
     padding: .5rem;
 }
+
+.nav-container ul li {
+    display: inline-block;
+    padding: .5rem 1rem;
+}
+
+.nav-container label input:checked+.menu-dropdown {
+    display: block;
+}
+
+.menu-dropdown {
+    position: absolute;
+    background-color: white;
+    top: 54px;
+    left: 0;
+    width: 100%;
+    transform: translateY(-500px);
+    transition: all 0.5s;
+}
+
+.nav-item input:checked+.menu-dropdown {
+    transform: translateY(0);
+}
+
 
 #for:checked+.dropdown-hamburger {
     transform: translateY(0);
