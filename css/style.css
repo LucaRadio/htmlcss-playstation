@@ -25,6 +25,31 @@ nav .nav-container a svg {
     height: 0.5rem;
 }
 
+.hamburger {
+    position: relative;
+}
+
+.dropdown-hamburger {
+    position: absolute;
+    padding: 1rem;
+    left: calc(-100vw + 65px);
+    top: 50px;
+    background-color: white;
+    width: 100vw;
+    transition: all 0.5s;
+    transform: translateY(-500px);
+    z-index: 0;
+
+}
+
+[class*=nav-compact]>* {
+    padding: .5rem;
+}
+
+#for:checked+.dropdown-hamburger {
+    transform: translateY(0);
+}
+
 section {
     padding: 3rem 0rem;
 }
@@ -127,6 +152,6 @@ footer ul a:hover {
     border: 1px solid transparent;
 }
 
-label input:checked+.focus-img {
+.game-tab label input:checked+.focus-img {
     border-color: var(--bs-primary);
 }
