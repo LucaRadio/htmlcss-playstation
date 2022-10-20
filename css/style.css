@@ -113,3 +113,20 @@ footer ul a:hover {
 .sie {
     width: 200px;
 }
+
+.sell .row .col-4 div {
+    border-bottom: 5px solid transparent;
+}
+
+.sell .row .col-4 input:checked+div {
+    border-color: var(--bs-primary);
+}
+
+.focus-img {
+    padding: 0.2rem;
+    border: 1px solid transparent;
+}
+
+label input:checked+.focus-img {
+    border-color: var(--bs-primary);
+}
