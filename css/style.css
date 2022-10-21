@@ -68,6 +68,12 @@ nav .nav-container a svg {
 }
 
 
+
+.nav-item:hover label {
+    color: #0070d1;
+}
+
+
 #for:checked+.dropdown-hamburger {
     transform: translateY(0);
 }
