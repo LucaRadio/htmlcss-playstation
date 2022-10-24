@@ -67,12 +67,9 @@ nav .nav-container a svg {
     transform: translateY(0);
 }
 
-
-
 .nav-item:hover label {
     color: #0070d1;
 }
-
 
 #for:checked+.dropdown-hamburger {
     transform: translateY(0);
@@ -167,11 +164,12 @@ footer ul a:hover {
     width: 200px;
 }
 
-.sell .row .col-4 div {
+.sell .row .col-sm-4.col-md div {
     border-bottom: 5px solid transparent;
+    display: flex;
 }
 
-.sell .row .col-4 input:checked+div {
+.sell .row .col-sm-4.col-md input:checked+div {
     border-color: var(--bs-primary);
 }
 
